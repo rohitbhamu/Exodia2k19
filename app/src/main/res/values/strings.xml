@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Exodia 2k19</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="aadityasharmaNumber">+918003769501</string>
+    <string name="parimalKumarnumber">+918504977737</string>
+    <string name="rishabhdharmaninumber">+919418794251</string>
+    <string name="nakulyadavnumber">+918718939979</string>
+    <string name="amolAgarwalNumber">+918219174761</string>
+    <string name="akshitaJainnumber">+918764001606</string>
+    <string name="nabeelkhanNumber">+919650872700</string>
+    <string name="satyamshuklaNumber">+9196302262761</string>
+    <string name="sanjeevYadavNumber">+919457513683</string>
+    <string name="akashGarwaNumber">+919079895476</string>
+    <string name="naveenDaraNumber">+916350665805</string>
+    <string name="gauravnirmalNumber">+919079239052</string>
+    <string name="namrataMalkaniNumber">+918353064407</string>
+    <string name="nikitaYadavNumber">+919414303088</string>
+    <string name="amitChouhnNumber">+918955975421</string>
+    <string name="shikharKumarNumber">+919044712547</string>
+    <string name="mayankNumber">+919479533691</string>
+    <string name="hardikAgarwalNumber">+919416521628</string>
+    <string name="shivamKumarnumber">+917976086613</string>
+    <string name="rohitBhamuNumber">+918353064425</string>
+    <string name="purushottamnumber">+917355414418</string>
+    <string name="anweshDasNumber">+917807554586</string>
+    <string name="kanikaGuptaNumber">+919816725526</string>
+    <string name="abhishekbhardwajNumber">+919013813892</string>
+    <string name="title_activity_campus_map">Map</string>
+
+
 </resources>
