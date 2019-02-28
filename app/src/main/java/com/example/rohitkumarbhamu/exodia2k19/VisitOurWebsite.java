@@ -22,7 +22,7 @@ public class VisitOurWebsite extends Activity {
         ourBrow.getSettings().setUseWideViewPort(true);
         ourBrow.setWebViewClient(new ourViewClient());
         try {
-            ourBrow.loadUrl("http://successcec.in/");
+            ourBrow.loadUrl("https://www.exodia.in/");
         }catch (Exception e){
             e.printStackTrace();
         }

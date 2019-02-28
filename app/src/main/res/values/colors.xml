@@ -4,5 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="TeamBackGroundColor">#000</color>
+    <color name="divider_color">#adad85</color>
+    <color name="text_color_of_options">#D81B60</color>
 
 </resources>

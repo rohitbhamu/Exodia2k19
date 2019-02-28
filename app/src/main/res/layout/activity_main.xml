@@ -1,12 +1,236 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-
+<!--
    <include layout="@layout/carouselview" />
+-->
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"/>
+
+    <LinearLayout
+        android:background="@android:color/holo_blue_bright"
+    android:id="@+id/list_of_options"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center|center_vertical"
+                android:layout_weight="2"
+                android:src="@drawable/sponsers_clipart"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color_of_options"
+                android:layout_weight="1"
+                android:text="Sponsers"/>
+
+        </LinearLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/website_ll"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center|center_vertical"
+                android:layout_weight="2"
+                android:src="@drawable/visit_our_website"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color_of_options"
+                android:layout_weight="1"
+                android:text="WEBSITE"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/map_ll"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:src="@drawable/map_clipart"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_of_options"
+                    android:text="MAP"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/contact_us_ll"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:src="@drawable/contact_us_clipart"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_of_options"
+                    android:text="Contact Us"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+<!--
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/sponsers_ll"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:src="@drawable/sponsers_clipart"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_of_options"
+                    android:text="Sponsers"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/about_ll"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:src="@drawable/about_us_clipart"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_of_options"
+                    android:text="About"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
